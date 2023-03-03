@@ -1,5 +1,19 @@
 ul {
-  font-size: 30px;
+  display: block;
+  border: 2px solid black;
+  font-size: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+ul li {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  width: 300px;
 }
 
 input {
@@ -10,4 +24,11 @@ input {
   font-size: 35px;
   border: none;
   border-bottom: 5px solid yellow;
+}
+
+button {
+  font-size: 50px;
+  color: red;
+  border: none;
+  background-color: transparent;
 }

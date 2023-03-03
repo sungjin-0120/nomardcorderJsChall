@@ -1,5 +1,7 @@
 @import "reset.css";
 @import "todo.css";
+@import "wheather.css";
+
 body {
   font-family: "Oswald", sans-serif;
 }

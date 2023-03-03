@@ -15,6 +15,10 @@
   </head>
   <body>
     <header>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
       <form class="hidden" id="hello-form">
         <input type="text" required placeholder="write your name!😒" />
         <input type="submit" value="✔" id="hello_submit" />
@@ -31,6 +35,7 @@
           type="text"
           placeholder="write a Todo and press enter"
           required
+          maxlength="8"
         />
       </form>
       <ul id="todo-list"></ul>
@@ -40,5 +45,6 @@
     <script src="pr\js/quote.js"></script>
     <script src="pr/js/img.js"></script>
     <script src="pr/js/todos.js"></script>
+    <script src="pr/js/wheather.js"></script>
   </body>
 </html>
