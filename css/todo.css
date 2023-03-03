@@ -1,0 +1,13 @@
+ul {
+  font-size: 30px;
+}
+
+input {
+  background-color: transparent;
+
+  width: 470px;
+  padding: 0 25px;
+  font-size: 35px;
+  border: none;
+  border-bottom: 5px solid yellow;
+}

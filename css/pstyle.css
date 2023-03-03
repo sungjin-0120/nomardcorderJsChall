@@ -1,0 +1,50 @@
+@import "reset.css";
+@import "todo.css";
+body {
+  font-family: "Oswald", sans-serif;
+}
+header {
+  width: 100%;
+  margin: 10px 20px;
+  font-size: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  bottom: 150px;
+}
+img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: -10;
+  position: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+#hello-form input {
+  border: none;
+  font-size: 50px;
+  background-color: transparent;
+  border-bottom: 5px solid yellowgreen;
+}
+#hello_submit {
+  background-color: transparent;
+}
+#quotes {
+  margin: 0px;
+}
+#quotes span {
+  font-weight: 800;
+  font-size: 35px;
+  color: black;
+}
+#time {
+  margin: 20px;
+}

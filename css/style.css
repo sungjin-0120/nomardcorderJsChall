@@ -1,0 +1,45 @@
+.hidden {
+  display: none;
+}
+
+#clock {
+  font-size: 100px;
+}
+
+#todo-form {
+  color: white;
+  font-size: 20px;
+}
+
+#center {
+  position: relative;
+  top: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: -5;
+}
+#todo-form input {
+  border: none;
+  font-size: 30px;
+  border-bottom: solid 3px yellow;
+  background-color: transparent;
+}
+#todo-form input::placeholder {
+  color: wheat;
+}
+#weather span {
+  color: wheat;
+  font-size: 30px;
+}
